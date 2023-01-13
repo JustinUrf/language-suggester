@@ -31,6 +31,9 @@ class that makes site form in a way that makes sense
 class that gets dynamically applied after JS runs branching logic (maybe)
 class that potentially makes things hidden...? (not sure if I need it if i'm replacing answers)
 
+class that makes the div that contains user input float to the left taking up 33% of the screen, flexible
+class that displays answer to the right of the screen that is hidden in a div, takes up 66% of the screen, flexible.
+
 * javascript
 
 variables that records all 5 user submitted prompts
@@ -38,4 +41,4 @@ function that return 1 of 3 different languages through branching
 function that handles on submit events that does >
   changes inner text of answer area in HTMl
   changes classes(if i have time)
-  
+converts all user submitted prompts into numbers valuing from 1-4, at the end determine language by adding quiz selections together and get ranges for 1-5/5-10/15/20

@@ -6,30 +6,61 @@
   <title>Programming Language Suggester</title>
 </head>
 <body>
-  <!-- Gathers username for viewer -->
-  <form id="form">
-    <label for="username">What's your name?</label>
-    <input id="username-id" name="username" type="text">
-  </form>
+  <!-- div that contains all the user prompts -->
+  <div>
+    <!-- Gathers username for viewer -->
+    <form id="form">
+      <label for="username">What's your name?</label>
+      <input id="username-id" name="username" type="text">
+    </form>
+
+    <form id="age-form">
+      <label for="age">What's your age?</label>
+      <input id="user-age" name="age" type="text">
+    </form>
 
     <!-- Prompts user to pick a use-type for their language -->
-    <form id="radio-form">
+    <form id="use-type-form">
       <p>What do you want to use your language for?</p>
-      <label><input type="radio" name="use-types" value="backend" checked>Backend</label><br>
-      <label><input type="radio" name="use-types" value="frontend">Frontend</label><br>
-      <label><input type="radio" name="use-types" value="data">Data</label><br>
-      <label><input type="radio" name="use-types" value="cloud">Cloud</label>
+      <label><input type="radio" name="use-types" value=1 checked>Backend</label><br>
+      <label><input type="radio" name="use-types" value=2>Frontend</label><br>
+      <label><input type="radio" name="use-types" value=3>Data</label><br>
+      <label><input type="radio" name="use-types" value=4>Cloud</label><br>
     </form>
 
-    <form id="radio-form">
-      <p>What's  your favourite activity</p>
-      <label><input type="radio" name="use-types" value="backend" checked>Backend</label><br>
-      <label><input type="radio" name="use-types" value="frontend">Frontend</label><br>
-      <label><input type="radio" name="use-types" value="data">Data</label><br>
-      <label><input type="radio" name="use-types" value="cloud">Cloud</label>
+    <form id="favourite-activity-type-form">
+      <p>What's your favourite activity</p>
+      <label><input type="radio" name="favourite-activity" value=1>Climbing</label><br>
+      <label><input type="radio" name="favourite-activity" value=2>Camping</label><br>
+      <label><input type="radio" name="favourite-activity" value=3>Coding</label><br>
+      <label><input type="radio" name="favourite-activity" value=4>Other</label><br>
+    </form>
+
+    <form id="genre-of-music-form">
+      <p>What's your favourite genre of music</p>
+      <label><input type="radio" name="favourite-genre" value=1>Rock</label><br>
+      <label><input type="radio" name="favourite-genre" value=2>Country</label><br>
+      <label><input type="radio" name="favourite-genre" value=3>Electronic</label><br>
+      <label><input type="radio" name="favourite-genre" value=4>Other</label><br>
+    </form>
+
+    <form id="personality-type-form">
+      <p>What's your personality type</p>
+      <label><input type="radio" name="personality-type" value=1>Outgoing!</label><br>
+      <label><input type="radio" name="personality-type" value=2>Relaxed, approachable!</label><br>
+      <label><input type="radio" name="personality-type" value=3>Withdrawn, likes your own space.</label><br>
+      <label><input type="radio" name="personality-type" value=4>Other</label><br>
+    </form>
+
+    <form id="scenario-form">
+      <p>Your final is in 2 weeks what do you do?</p>
+      <label><input type="radio" name="scenario" value=1>Get it done as soon as possible!</label><br>
+      <label><input type="radio" name="scenario" value=2>Moderately chip away and finish it within the given time</label><br>
+      <label><input type="radio" name="scenario" value=3>Procrastinate and finish it on the final day</label><br>
+      <label><input type="radio" name="scenario" value=4>Don't turn it in</label><br>
     </form>
 
 
-
+  </div>
 </body>
 </html>
