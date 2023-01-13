@@ -24,6 +24,7 @@ function answerCalculation(userInput1, userInput2, userInput3, userInput4, userI
 // whatever is returned from sortEndResponse
 function determineLangauge(event) {
   event.preventDefault();
+  // sets all the local varaibles that are used for sorting
   const userInput1 = parseInt(document.querySelector("input[name='use-types']:checked").value);
   const userInput2 = parseInt(document.querySelector("input[name='favourite-activity']:checked").value);
   const userInput3 = parseInt(document.querySelector("input[name='favourite-genre']:checked").value);

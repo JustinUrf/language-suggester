@@ -14,3 +14,16 @@
 .leftSidebar label {
   padding-left: 0.5rem;
 }
+
+.rightSidebar {
+  border: 2px solid black;
+  padding: 0rem;
+  display: block;
+  margin: auto;
+  margin-top: .3rem;
+  margin-bottom: .3rem;
+  width: 79%;
+  box-sizing: border-box;
+  float: right;
+  text-align: center;
+}
