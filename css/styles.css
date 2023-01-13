@@ -1,0 +1,16 @@
+.leftSidebar {
+  border: 2px solid black;
+  padding: 0.3rem 0rem 0.3rem 0.75rem;
+  display: block;
+  margin: auto;
+  margin-top: .3rem;
+  margin-bottom: .3rem;
+  width: 20%;
+  box-sizing: border-box;
+  float: left;
+  text-align: left
+}
+
+.leftSidebar label {
+  padding-left: 0.5rem;
+}
