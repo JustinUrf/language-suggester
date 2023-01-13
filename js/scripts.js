@@ -1,4 +1,5 @@
-function sortEndResponse() {
+
+function sortEndResponse(answer) {
   if (answer <= 5) {
     return "Javascript";
   } else if (answer > 5 && answer <= 10) {
@@ -9,6 +10,7 @@ function sortEndResponse() {
     return "CSS"
   }  
 }
+
 
 function answerCalculation(userInput1, userInput2, userInput3, userInput4, userInput5){
   return userInput1 + userInput2 + userInput3 + userInput4 + userInput5
@@ -25,9 +27,9 @@ function determineLangauge(event) {
   const userInput4 = parseInt(document.querySelector("input[name='personality-type']:checked").value);
   const userInput5 = parseInt(document.querySelector("input[name='scenario']:checked").value);
   console.log(userInput1, userInput2, userInput3, userInput4, userInput5)
-  const answer = answerCalculation(userInput1, userInput2, userInput3, userInput4, userInput5)
+  let answer = answerCalculation(userInput1, userInput2, userInput3, userInput4, userInput5)
   console.log(answer)
-  const result = sortEndResponse();
+  const result = sortEndResponse(answer);
 
   document.getElementById("result").innerText = result
   
