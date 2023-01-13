@@ -1,8 +1,8 @@
-# Language Quiz and Suggester
+# Programming Language Quiz and Suggester
 
 #### By Justin Lee
 
-#### A quiz that suggests users the type of language they should learn to code in based off their answers.
+#### A quiz that suggests users the type of language they should learn to code with based off their answers.
 
 ## Technologies Used
 
@@ -12,7 +12,7 @@
 
 ## Description
 
-This is a HTML website that has fields for users to input data, select data from multiple types through radio buttons, or drop down menu's. Using  those input data's, the website will use branching logic with Javascript to give the user feedback on the type of language they should learn to code in based off their selections.
+This is a HTML website that has users select data from multiple types through radio buttons. Using those input data', the website will use branching logic with Javascript to give the user feedback on the type of language they should learn to code in based off their selections.
 
 ## Setup/Installation Requirements
 
