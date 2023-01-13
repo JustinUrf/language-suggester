@@ -6,17 +6,30 @@
   <title>Programming Language Suggester</title>
 </head>
 <body>
+  <!-- Gathers username for viewer -->
   <form id="form">
     <label for="username">What's your name?</label>
     <input id="username-id" name="username" type="text">
- 
-    <select name="What do you want to do with your language?" id="question1-id">
-      <option></option>
-      <option></option>
-      <option></option>
-      <option></option>
-    </select>
-
   </form>
+
+    <!-- Prompts user to pick a use-type for their language -->
+    <form id="radio-form">
+      <p>What do you want to use your language for?</p>
+      <label><input type="radio" name="use-types" value="backend" checked>Backend</label><br>
+      <label><input type="radio" name="use-types" value="frontend">Frontend</label><br>
+      <label><input type="radio" name="use-types" value="data">Data</label><br>
+      <label><input type="radio" name="use-types" value="cloud">Cloud</label>
+    </form>
+
+    <form id="radio-form">
+      <p>What's  your favourite activity</p>
+      <label><input type="radio" name="use-types" value="backend" checked>Backend</label><br>
+      <label><input type="radio" name="use-types" value="frontend">Frontend</label><br>
+      <label><input type="radio" name="use-types" value="data">Data</label><br>
+      <label><input type="radio" name="use-types" value="cloud">Cloud</label>
+    </form>
+
+
+
 </body>
 </html>
