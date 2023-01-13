@@ -32,8 +32,9 @@ function determineLangauge(event) {
   const userInput5 = parseInt(document.querySelector("input[name='scenario']:checked").value);
   const answer = answerCalculation(userInput1, userInput2, userInput3, userInput4, userInput5)
   const result = sortEndResponse(answer);
+  const username = document.getElementById("username-id").value;
   
-  document.getElementById("result").innerText = result
+  document.getElementById("result").innerText = username + ""+  "Your results are in!" + result 
 
 
 }
