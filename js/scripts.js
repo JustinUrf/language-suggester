@@ -3,13 +3,13 @@
 // function that takes in answer( which is avariable that converts user input into a number value and returns what langauge they should learn
 function sortEndResponse(answer) {
   if (answer >= 5 && answer <= 9) {
-    return "You choose a lot of A or B answers, the perfect language for you is Javascript!";
+    return "You chose a lot of A or B answers, the perfect language for you is Javascript!";
   } else if (answer > 9 && answer <= 13) {
-    return "You choose a lot of B or C answers or a couple of D answers and a couple of A and B answers, the perfect langauge for you is Go!";
+    return "You chose a lot of B or C answers or a couple of D answers and a couple of A and B answers, the perfect langauge for you is Go!";
   } else if (answer > 13 && answer <= 17) {
-    return "You choose a lot of C or B answers or a lot of D answers and a couple of B and A answers, the perfect language for you is Ruby!"
+    return "You chose a lot of C or B answers or a lot of D answers and a couple of B and A answers, the perfect language for you is Ruby!"
   } else if (answer > 17 && answer <= 20) {
-    return "You choose a lot of C and D answers, the perfect langauge for you is C#!"
+    return "You chose a lot of C and D answers, the perfect langauge for you is C#!"
   }  
 }
 // This function converts user inputs into a final number to be compared to i.e 3 3 3 3 2 > returns 14. 
