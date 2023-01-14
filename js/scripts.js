@@ -1,5 +1,4 @@
 //Business Logic
-
 // function that takes in answer( which is avariable that converts user input into a number value and returns what langauge they should learn
 function sortEndResponse(answer) {
   if (answer >= 5 && answer <= 9) {
@@ -12,13 +11,14 @@ function sortEndResponse(answer) {
     return "You chose a lot of C and D answers, the perfect langauge for you is C#!"
   }  
 }
+
 // This function converts user inputs into a final number to be compared to i.e 3 3 3 3 2 > returns 14. 
 function answerCalculation(userInput1, userInput2, userInput3, userInput4, userInput5){
   return userInput1 + userInput2 + userInput3 + userInput4 + userInput5
 }
 
-// UI logic
 
+// UI logic
 // This function is called when the submit button gets intereacted with. This then gathers user input data which is assigned 
 // with a value 1-4, then adds them for final comparison for sortEndResponse). Finally, the text in ID results gets changed to 
 // whatever is returned from sortEndResponse
@@ -36,11 +36,9 @@ function determineLangauge(event) {
   const username = document.getElementById("username-id").value;
 
   document.getElementById("result").innerText = "Hi there "+ username + "! " + result
-
-
-
 }
 
+// Event handler function
 window.addEventListener("load", function() {
   const formSubmit = document.getElementById("scenario-form");
   formSubmit.addEventListener("submit", determineLangauge);
