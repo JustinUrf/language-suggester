@@ -23,7 +23,8 @@ This is a HTML website that has users select data from multiple types through ra
 
 ## Known Bugs
 
-N/a
+* Does not view well on smaller screens.
+* Small spacing error with exclamation point in given answer when user does not submit a name
 
 ## License
 
